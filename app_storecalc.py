@@ -58,7 +58,7 @@ computed_true_values["100 gems"] = 100.0
 computed_true_values["gear chest"] = 15600.0
 computed_true_values["g1 widget"] = 2890000.0
 computed_true_values["g2 widget"] = 3400000.0
-computed_true_values["taming mark advanced"] = 4500000.0
+computed_true_values["taming mark advanced"] = 4500.0
 computed_true_values["pet medallion"] = 54000.0
 # =========================================================================
 # NAVIGATION ARCHITECTURE (TABS)
