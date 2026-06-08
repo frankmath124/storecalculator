@@ -53,13 +53,13 @@ for idx, row in enumerate(edited_inv):
 
 # Add Background Constants
 computed_true_values["5 min speedup"] = 0.5
-computed_true_values["1hr speedup"] = 800.0
+computed_true_values["1hr speedup"] = 60
 computed_true_values["100 gems"] = 100.0
-computed_true_values["gear chest"] = 15600.0
-computed_true_values["g1 widget"] = 2890000.0
-computed_true_values["g2 widget"] = 3400000.0
+computed_true_values["gear chest"] = 500
+computed_true_values["g1 widget"] = 3600
+computed_true_values["g2 widget"] = 4500
 computed_true_values["taming mark advanced"] = 4500.0
-computed_true_values["pet medallion"] = 54000.0
+computed_true_values["pet medallion"] = 1500
 # =========================================================================
 # NAVIGATION ARCHITECTURE (TABS)
 # =========================================================================
@@ -152,7 +152,7 @@ with tab_event:
     with ev_col2:
         st.markdown("### 🍾 Champagne Bundle Packs Value Mapping")
         champagne_shop = {
-            "hero widget": 10, "g2 widget": 10, "g1 widget": 10, "forgehammer": 10,
+            "Mithril": 3, "hero widget": 10, "g2 widget": 10, "g1 widget": 10, "forgehammer": 10,
             "pet medallion": 5, "taming mark advanced": 2, "general mythic shard": 10,
             "artisan vision": 10, "charm design": 10, "charm guide": 10
         }
